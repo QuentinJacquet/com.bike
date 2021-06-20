@@ -74,6 +74,11 @@
 
 							<!-- pass any necessary config options -->
 							<configOptions>
+								<basePackage>com.bike.server</basePackage>
+								<apiPackage>com.bike.server.api</apiPackage>
+								<invokerPackage>com.bike.server.api</invokerPackage>
+								<configPackage>com.bike.server.config</configPackage>
+								<modelPackage>com.bike.server.model</modelPackage>
 								<java8>true</java8>
 								<dateLibrary>java8</dateLibrary>
 								<reactive>true</reactive>
